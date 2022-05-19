@@ -31,7 +31,7 @@ const NewProdForm = (props)=>{
                 setPrice("")
                 setDescription("")
 
-                props.setFormSubmitted(!props.setFormSubmitted)
+                props.setFormSubmitted(!props.formSubmitted) 
 
 
                 }
